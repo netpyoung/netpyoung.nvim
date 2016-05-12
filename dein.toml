@@ -1,0 +1,60 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+[[plugins]]
+repo = 'Shougo/vimproc.vim'
+build = 'make'
+
+[[plugins]]
+repo = 'cespare/vim-toml'
+on_ft = 'toml'
+
+[[plugins]]
+repo = 'chriskempson/tomorrow-theme' # theme
+rtp = 'vim'
+
+[[plugins]]
+repo = 'Shougo/neocomplete.vim'
+
+[[plugins]]
+repo = 'Shougo/neocomplcache' # 자동완성.
+
+[[plugins]]
+repo = 'Shougo/unite.vim'     #정보 탐색.
+
+[[plugins]]
+repo = 'Shougo/vimfiler.vim' #디렉토리 탐색.
+
+[[plugins]]
+repo = 'mhinz/vim-startify' #초기 화면 버퍼.
+
+[[plugins]]
+repo = 'rking/ag.vim' #grep확장판.
+
+[[plugins]]
+repo = 'tpope/vim-markdown' #markdown-mode
+
+
+#'tpope/vim-fugitive'  "Git 플러그인.
+#'Shougo/vimshell.vim' "쉘 프로그램.
+#'thinca/vim-quickrun' "간단한 명령을 쉽게 run.
+#'terryma/vim-multiple-cursors' "multiple-cursors
+
+
+# for Python
+# 'scrooloose/syntastic' "syntax 체크.
+# 'hynek/vim-python-pep8-indent' "pep8 indent
+# 'xolox/vim-misc' "vim autoload
+# 'xolox/vim-easytags' "vim tags
+# 'tpope/vim-unimpaired' "vim key binding
+
+# for Golang
+# 'fsouza/go.vim'
+#
+# for Clojure
+# 'tpope/vim-fireplace' "nrepl
+# 'tpope/vim-classpath'
+# 'guns/vim-clojure-static'
+
+#" for VimL
+#NeoBundle 'tpope/timl'

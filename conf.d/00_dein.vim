@@ -3,13 +3,12 @@ if has('vim_starting')
 endif
 
 call dein#begin(expand('~/.config/nvim/plugins'))
-call dein#add('Shougo/dein.vim')
-
 " ====================
 " start - user plugins
 " ====================
 
-call dein#add('Shougo/neocomplete.vim')
+call dein#load_toml('~/.config/nvim/dein.toml', {'lazy': 0})
+call dein#load_toml('~/.config/nvim/dein_lazy.toml', {'lazy': 1})
 
 
 
