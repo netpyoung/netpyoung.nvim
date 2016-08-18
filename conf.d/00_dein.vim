@@ -1,3 +1,9 @@
+if !isdirectory("plugins")
+    !pip install --user neovim
+    !mkdir -p plugins
+    !git clone https://github.com/Shougo/dein.vim plugins/repos/github.com/Shougo/dein.vim
+endif
+
 if has('vim_starting')
   set runtimepath+=~/.config/nvim/plugins/repos/github.com/Shougo/dein.vim
 endif
