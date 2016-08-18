@@ -4,7 +4,7 @@
 
 
 ```bash
-pip install neovim
+pip install --user neovim
 
 PLUGIN_DIR=plugins
 INSTALL_DIR="$PLUGIN_DIR/repos/github.com/Shougo/dein.vim"
