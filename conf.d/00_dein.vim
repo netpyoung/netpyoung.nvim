@@ -1,6 +1,6 @@
-if !isdirectory("plugins")
+if empty(glob("~/.config/nvim/plugins/"))
     !pip install --user neovim
-    !mkdir -p plugins
+    !mkdir -p ~/.config/nvim/plugins
     !git clone https://github.com/Shougo/dein.vim plugins/repos/github.com/Shougo/dein.vim
 endif
 
