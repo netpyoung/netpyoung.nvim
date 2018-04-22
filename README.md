@@ -1,5 +1,11 @@
 # netpyoung.nvim
 
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/netpyoung/netpyoung.nvim/master/init.sh | sh
+```
+
+
 # [neovim](https://neovim.io/)
 
 * http://vimawesome.com/
